@@ -1,5 +1,7 @@
+import { env } from "./env"
+
 export function ProdOnly({ children }: { children: React.ReactNode }) {
-  const isProduction = import.meta.env.PROD === true
+  const isProduction = env.NODE_ENV === "production"
 
   if (isProduction) {
     return <>{children}</>

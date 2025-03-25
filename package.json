@@ -1,6 +1,6 @@
 {
   "name": "@redbrunocosta/isdev",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "```ts   import {DevOnly} from 'isDev'",
   "homepage": "https://github.com/BrunoCostaPrado/IsDev#readme",
@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@t3-oss/env-core": "^0.12.0",
     "@types/bun": "^1.2.5",
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
