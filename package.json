@@ -1,8 +1,8 @@
 {
   "name": "@redbrunocosta/isdev",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "private": false,
-  "description": "```ts   import {DevOnly} from 'isDev'",
+  "description": "Render a component in dev or prod",
   "homepage": "https://github.com/BrunoCostaPrado/IsDev#readme",
   "bugs": {
     "url": "https://github.com/BrunoCostaPrado/IsDev/issues"
