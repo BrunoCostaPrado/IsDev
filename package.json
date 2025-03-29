@@ -1,6 +1,6 @@
 {
   "name": "@redbrunocosta/isdev",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "```ts   import {DevOnly} from 'isDev'",
   "homepage": "https://github.com/BrunoCostaPrado/IsDev#readme",
@@ -21,6 +21,7 @@
   ],
   "scripts": {
     "build": " tsup",
+    "changeset": "@changesets/cli version",
     "lint": "biome check --write .",
     "postinstall": "patch-package",
     "typecheck": "tsc --noEmit"
