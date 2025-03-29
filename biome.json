@@ -38,6 +38,6 @@
     }
   },
   "files": {
-    "ignore": ["node_modules", "tsconfig.*.json"]
+    "ignore": ["node_modules"]
   }
 }

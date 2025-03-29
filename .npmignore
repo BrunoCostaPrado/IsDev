@@ -1,3 +1,6 @@
 node_modules
 biome.json
 bunfig.toml
+.husky
+.github
+tsup.config.ts

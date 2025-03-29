@@ -1,31 +1,15 @@
-# IsDev
+# isdev2
 
-## Choose when to renders a component
+To install dependencies:
 
-## Dev
-
-```ts
-  import {DevOnly} from 'isDev'
-
-  return(
-    <>
-   <DevOnly>
-   <DevComponent/>
-    </DevOnly>
-    </>
-  )
+```bash
+bun install
 ```
 
-## Prod
+To run:
 
-```ts
-  import {ProdOnly} from 'isDev'
-
-  return(
-    <>
-   <ProdOnly>
-   <ProdComponent/>
-    </ProdOnly>
-    </>
-  )
+```bash
+bun run src/index.ts
 ```
+
+This project was created using `bun init` in bun v1.2.5. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

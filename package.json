@@ -20,30 +20,23 @@
     "dist"
   ],
   "scripts": {
-    "build": " bunx --bun  vite build ",
-    "dev": "bunx --bun vite",
+    "build": " tsup",
     "lint": "biome check --write .",
-    "postinstall": "patch-package",
-    "preview": "bun run build && bunx --bun vite preview",
-    "types": "tsc -b -f"
+    "postinstall": "patch-package"
   },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "vite-plugin-dts": "^4.5.3"
+ "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@t3-oss/env-core": "^0.12.0",
-    "@types/bun": "^1.2.5",
+    "@total-typescript/ts-reset": "^0.6.1",
+    "@types/bun": "^1.2.8",
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
-    "@vitejs/plugin-react-swc": "^3.8.1",
-    "globals": "v16.0.0",
     "patch-package": "^8.0.0",
     "postinstall": "^0.7.5",
     "tslib": "^2.8.1",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.3"
+    "tsup": "^8.4.0"
   }
 }
