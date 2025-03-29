@@ -1,5 +1,0 @@
----
-"@redbrunocosta/isdev": minor
----
-
-edit
