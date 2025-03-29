@@ -1,6 +1,6 @@
 {
   "name": "@redbrunocosta/isdev",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "```ts   import {DevOnly} from 'isDev'",
   "homepage": "https://github.com/BrunoCostaPrado/IsDev#readme",
