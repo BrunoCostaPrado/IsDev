@@ -22,9 +22,10 @@
   "scripts": {
     "build": " tsup",
     "lint": "biome check --write .",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "typecheck": "tsc --noEmit"
   },
- "dependencies": {
+  "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
